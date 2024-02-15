@@ -17,6 +17,8 @@ const logDummy = Array.from({ length: 4 }, (_, idx) => {
   };
 });
 
+export const revalidate = 60;
+
 const PopularLogSection = () => {
   return (
     <SectionWrapper title='🔥 인기있는 로그를 확인해 보세요!'>
